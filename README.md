@@ -1,1 +1,1 @@
-# react-restaurant-website
+# react-restaurant-app

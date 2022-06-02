@@ -1,0 +1,33 @@
+/**** FOOTER ****/
+
+#footer-page {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    background-color: #363636;
+    border: 0px;
+}
+
+#footer-page > .row {
+    margin-bottom: 25px;
+}
+
+#footer-page span {
+    font-size: 1.3em;
+}
+
+#address p {
+    font-size: .8em;
+    line-height: 1.5;
+    color: #ca150e;
+}
+
+#testimonials {
+    font-style: italic;
+}
+
+#testimonials p:nth-child(2) {
+    margin-bottom: 25px;
+}

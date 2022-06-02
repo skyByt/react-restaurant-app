@@ -1,0 +1,87 @@
+/**** HOME PAGE ****/
+#home-page {
+    background: #1b1918;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#menu-tile, #specials-tile, #maps-tile {
+    width: 100%;
+    height: 250px;
+    margin-top: 25px;
+    margin-bottom:25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    border: 0px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover,
+#maps-tile:hover {
+    box-shadow: 0 1px 5px 1px #ccc;
+}
+
+#menu-tile {
+    background: url('./assets/menu-tile.jpg');
+    background-position: center;
+}
+
+#specials-tile {
+    background: url('./assets/specials-tile.jpg') no-repeat;
+    background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #maps-tile span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.8em;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: .8;
+    background-color: #000;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+}
+
+/**** Large devices ***/
+@media (min-width: 1200px) {
+
+}
+
+/**** Medium devices ***/
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    h1 {
+        font-size: 35px;
+    }
+    i {
+        font-size: 14.0px;
+    }
+}
+
+/**** Small devices ***/
+@media (min-width: 768px) and (max-width: 991.99px) {
+    h1 {
+        font-size: 30px;
+    }
+    i {
+        font-size: 12.5px;
+    }
+}
+
+/**** Extra small devices devices ***/
+@media (max-width: 767.99px) {
+    h1 {
+        font-size: 30px;
+    }
+    i {
+        font-size: 12px;
+    }
+    #footer-page {
+        text-align: center;
+    }
+}
