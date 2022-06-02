@@ -31,3 +31,10 @@
 #testimonials p:nth-child(2) {
     margin-bottom: 25px;
 }
+
+/**** Extra small devices devices ***/
+@media (max-width: 767.99px) {
+    #footer-page {
+        text-align: center;
+    }
+}
